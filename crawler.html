@@ -59,7 +59,7 @@
 
 			function addWall(x, y)
 			{
-				var cube = new THREE.Mesh(new THREE.CubeGeometry(1, 1, 1), wallMat);
+				var cube = new THREE.Mesh(new THREE.BoxGeometry(1, 1, 1), wallMat);
 				cube.position.set(x,0,y);
 				scene.add(cube);
 			}
